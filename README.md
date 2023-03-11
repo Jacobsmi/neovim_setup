@@ -14,3 +14,13 @@
 
 ### Neoformat
 - So, we can format files via prettier
+
+## Shortcuts
+
+### Editor
+- `<Space> + w` -> Save the current file
+- `<Space> + q` -> Quit the current buffer
+
+### File Explorer
+- `CTRL + x` -> Open a file in a horizontal split
+- `CTRL + v` -> Open a file in a vertical split 
