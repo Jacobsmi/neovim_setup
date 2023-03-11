@@ -12,5 +12,11 @@ return require('packer').startup(function(use)
 		run = "make install_jsregexp"
 	})
 	use 'saadparwaiz1/cmp_luasnip'
-
+  use ({
+		'nvim-tree/nvim-tree.lua',
+		requires = {
+			'nvim-tree/nvim-web-devicons', -- optional, for file icons
+		},
+		tag = 'nightly' -- optional, updated every week. (see issue #1193)
+	})
 end)
