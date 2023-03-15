@@ -1,5 +1,6 @@
 require('plugins')
 require('opts')
+require('telescope_config')
 require('neoformat')
 require('lsp_config')
-require('explorer')
+require('barbar_config')
